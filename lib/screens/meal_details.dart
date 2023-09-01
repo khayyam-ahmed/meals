@@ -11,8 +11,54 @@ class MealDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(meal.title),
       ),
-      body: const Center(
-        child: Text("okie i'm here"),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Image.network(
+              meal.imageUrl,
+              width: double.infinity,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'Ingredients',
+              style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
+            ),
+            const SizedBox(
+              height: 14,
+            ),
+            for (final ingredient in meal.ingredients)
+              Text(
+                ingredient,
+                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                      color: Theme.of(context).colorScheme.onBackground,
+                    ),
+              ),
+            const SizedBox(height: 16),
+            Text(
+              'Steps',
+              style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
+            ),
+            const SizedBox(
+              height: 14,
+            ),
+            for (final step in meal.steps)
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                child: Text(
+                  step,
+                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                        color: Theme.of(context).colorScheme.onBackground,
+                      ),
+                ),
+              ),
+          ],
+        ),
       ),
     );
   }
