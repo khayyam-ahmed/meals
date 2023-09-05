@@ -55,7 +55,8 @@ class MealDetailScreen extends StatelessWidget {
             ),
             for (final step in meal.steps)
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
                 child: Text(
                   step,
                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(
