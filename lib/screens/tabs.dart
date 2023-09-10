@@ -69,8 +69,9 @@ class _TabsScreenState extends State<TabsScreen> {
           MaterialPageRoute(
               builder: (ctx) =>
                   FilterScreen(currentFilters: _selectedFilters)));
-      _selectedFilters = result ?? kInitialFilters;
-      print(_selectedFilters);
+      setState(() {
+        _selectedFilters = result ?? kInitialFilters;
+      });
     }
   }
 
