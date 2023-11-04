@@ -3,7 +3,7 @@ _A **guided project** to learn differnt widgets, state management, animations an
 The original project source code can be found [here](https://github.com/academind/flutter-complete-guide-course-resources/tree/main/Code%20Snapshots/10%20Animations/05%20Finished)._
 
 **Introduction**:<br>
-MEALS is a basic multi-screen application built using Flutter. For state management, a package called RiverPod was used. This app allows users to see what meals are available, see their ingredients, and add them to their favorites or not. Users can also filter meals based on their preferences. Like choosing between vegan or vegetarian meals, or gluten-free meals etc. Once these filters are set, user will only be shown meals which are according to these filters. The app also has a tab bar at the bottom for easy navigation between screens, and a side drawer for navigation to the filters screen. Lastly, the app is responsive and works on both Android and iOS devices.
+MEALS is a versatile Flutter app powered by RiverPod for state management. It enables users to explore, manage, and filter meals, including dietary preferences like vegan, vegetarian, and gluten-free. The app offers a user-friendly experience with a bottom tab bar and a side drawer for filter access. It's fully responsive on Android and iOS.
 
 **Disclaimer**:
  - This project was for learning purposes.
