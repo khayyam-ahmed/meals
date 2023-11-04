@@ -154,30 +154,30 @@ Happy coding!
 <div class="row">
   <div class="column">
     <h2 style="text-align:center">Categories Screen</h2>
-    <img src="assets/screenshots/categories_screen.png" style="width:100%">
+    <img src="assets/screenshots/categories_screen.png" style="width:100%" width="360" height="820">
   </div>
   <div class="column">
     <h2 style="text-align:center">Main_Drawer</h2>
-    <img src="assets/screenshots/main_drawer.png" style="width:100%">
+    <img src="assets/screenshots/main_drawer.png" style="width:100%" width="360" height="820">
   </div>
   <div class="column">
     <h2 style="text-align:center">Filters Screen</h2>
-    <img src="assets/screenshots/filters_screen.png" style="width:100%">
+    <img src="assets/screenshots/filters_screen.png" style="width:100%" width="360" height="820">
   </div>
 </div>
 
 <div class="row">
   <div class="column">
     <h2 style="text-align:center">Meals Screen</h2>
-    <img src="assets/screenshots/meals_screen.png" style="width:100%">
+    <img src="assets/screenshots/meals_screen.png" style="width:100%" width="360" height="820">
   </div>
   <div class="column">
     <h2 style="text-align:center">Meal Details Screen</h2>
-    <img src="assets/screenshots/meal_detail_screen.png" style="width:100%">
+    <img src="assets/screenshots/meal_detail_screen.png" style="width:100%" width="360" height="820">
   </div>
   <div class="column">
     <h2 style="text-align:center">Favorites Screen</h2>
-    <img src="assets/screenshots/favorite_meal_screen.png" style="width:100%">
+    <img src="assets/screenshots/favorite_meal_screen.png" style="width:100%" width="360" height="820">
   </div>
 </div>
 
