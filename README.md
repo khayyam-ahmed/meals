@@ -8,7 +8,6 @@ MEALS is a versatile Flutter app powered by RiverPod for state management. It en
 **Disclaimer**:
  - This project was for learning purposes.
  - It is not a replica of Maximillian's actuall project, which you can find <a href = 'https://github.com/academind/flutter-complete-guide-course-resources/tree/main/Code%20Snapshots/10%20Animations/05%20Finished'>here</a>
-  - I have made some changes to the UI and the code structure.
 
 # Table of Contents
 - [Features](#features)
